@@ -1,14 +1,20 @@
-document.getElementById('taskForm').addEventListener('submit', function(event) {
-    // Prevent the form from being submitted normally (which would refresh the page).
-    event.preventDefault();
-  
-    // Get the text the user typed into the form.
-    var taskDescription = document.getElementById('taskInput').value;
-  
-    // Add the task to the list.
-    addTask(taskDescription);
-  
-    // Clear the input box.
-    document.getElementById('taskInput').value = '';
-  });
-  
+// This is the list where you'll store your tasks.
+let tasks = [];
+
+// Add a task to the list.
+function addTask(description) {
+  tasks.push(description);
+  // TODO: Update the UI to reflect the new task.
+}
+
+// Edit an existing task.
+function editTask(index, newDescription) {
+  tasks[index] = newDescription;
+  // TODO: Update the UI to reflect the edited task.
+}
+
+// Delete a task from the list.
+function deleteTask(index) {
+  tasks.splice(index, 1);
+  // TODO: Update the UI to reflect the deleted task.
+}
