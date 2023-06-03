@@ -1,2 +1,9 @@
-# ADHD-Task-Manager
-web-based application that allows users with ADHD to effectively plan and manage their day-to-day tasks. This application should include task creation with a priority level and estimated completion time, task list visualization, and a built-in timer to remind users to take short breaks for increased productivity.
+# ADHD Task Manager
+
+A simple task manager designed for individuals with ADHD.
+
+## How to Use
+
+1. Enter a task in the input field and click 'Add Task' to add it to the list.
+2. Click 'Edit' on a task to update its description.
+3. Click 'Delete' on a task to remove it from the list.
