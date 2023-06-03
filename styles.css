@@ -5,25 +5,26 @@
   
   /* Setting up our body with a linear gradient and a default font */
   body {
-    font-family: 'Arial', sans-serif;
+    font-family: 'Helvetica', sans-serif;
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
     min-height: 100vh;
-    background: linear-gradient(to right, #0000, #fff);
-    color: #333;
+    background: linear-gradient(to right, #ffffff00, #ffffff);
+    color: #000000;
   }
   
   h1 {
-    font-size: 2.5em;
+    font-size: em;
     margin-bottom: 0.5em;
+    color: #ff0000;
   }
   
   p {
     font-size: 1.2em;
     max-width: 600px;
     line-height: 1.6;
+    color: #000000;
   }
-  
